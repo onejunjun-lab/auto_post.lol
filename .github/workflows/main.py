@@ -12,7 +12,7 @@ X_ACCESS_TOKEN = os.getenv('1141352675037995008-hvIpt75VXyC8uhkRDu0sSERnakSNhF')
 X_ACCESS_TOKEN_SECRET = os.getenv('vCe001mD6EHGrzwjbxAl1h9AWQmLhOjAm7EvNn84jd9c8')
 
 # Gemini設定
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=AIzaSyDcTzliAbBT022tZQFQilJ7rHH8UPEwKzU)
 text_model = genai.GenerativeModel('gemini-1.5-flash')
 image_model = genai.GenerativeModel('gemini-1.5-flash')  # 画像も同じモデルでOK
 

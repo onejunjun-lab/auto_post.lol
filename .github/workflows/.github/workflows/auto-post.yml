@@ -21,9 +21,9 @@ jobs:
 
       - name: Run bot
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
-          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          GEMINI_API_KEY: ${{ AIzaSyDcTzliAbBT022tZQFQilJ7rHH8UPEwKzU }}
+          X_CONSUMER_KEY: ${{ KqqGOWPH7C2NZNbBueh9RnXBf }}
+          X_CONSUMER_SECRET: ${{ xnX1XzfsKAqhO6atccRV1vpTTj06fnX9e7Ll1NDoJgonZQQmLB }}
+          X_ACCESS_TOKEN: ${{ 1141352675037995008-hvIpt75VXyC8uhkRDu0sSERnakSNhF }}
+          X_ACCESS_TOKEN_SECRET: ${{ vCe001mD6EHGrzwjbxAl1h9AWQmLhOjAm7EvNn84jd9c8 }}
         run: python main.py
